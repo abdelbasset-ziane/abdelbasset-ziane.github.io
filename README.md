@@ -1,6 +1,6 @@
 <h2 align="center">
   My Portfolio Website<br/>
-  <a href="https://abdelbasset-ziane.github.io/portfolio" target="_blank">abdelbasset-ziane.portfolio</a>
+  <a href="https://abdelbasset-ziane.github.io" target="_blank">abdelbasset-ziane.portfolio</a>
 </h2>
 
 <br/>
