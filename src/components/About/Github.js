@@ -18,7 +18,7 @@ function Github() {
       Les jours où je <strong className="purple">Code</strong> (Repos privés - accès disponible sur demande)
       </h1>
       <GitHubCalendar
-        username="ayoubziane"
+        username="abdelbasset-ziane"
         blockSize={15}
         blockMargin={5}
         theme={colourTheme}

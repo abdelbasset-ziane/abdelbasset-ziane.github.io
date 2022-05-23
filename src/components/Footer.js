@@ -42,36 +42,6 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            {/*<li className="social-icons">
-              <a
-                href="https://github.com/ayoubziane"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.facebook.com/ayoubziane00"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillFacebook />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/ayoubziane00"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-  </li>*/}
           </ul>
         </Col>
       </Row>

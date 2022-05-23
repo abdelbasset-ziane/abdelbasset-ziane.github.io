@@ -4,8 +4,6 @@ import Button from "react-bootstrap/Button";
 import { BiLinkExternal } from "react-icons/bi";
 import Carousel from 'react-bootstrap/Carousel'
 
-import pdf from "../../Assets/memoire_pfe_ziane-cherif-ayoub.pdf";
-import { AiOutlineDownload } from "react-icons/ai";
 import { pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
