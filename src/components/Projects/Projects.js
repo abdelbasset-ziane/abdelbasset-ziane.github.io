@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 
 
 import admin from "../../Assets/Projects/admin_interface.png";
@@ -27,7 +26,6 @@ import project3 from "../../Assets/Projects/project3.jpg";
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
         Meine letzten <strong className="purple">realisierungen </strong>

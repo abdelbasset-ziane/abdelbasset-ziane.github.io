@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/architect.png";
-import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import ReactPlayer from 'react-player/lazy'
+import Button from "react-bootstrap/Button";
 
 import YouTube from 'react-youtube';
 import './Home.css'
@@ -14,13 +14,13 @@ const opts = {
   playerVars: {
     // https://developers.google.com/youtube/player_parameters
     autoplay: 1,
+    mute: 1
   },
 };
 function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -39,19 +39,17 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20, alignItems: 'center' }}>
-              {/* <img src={homeLogo} alt="home pic" className="img-fluid" /> */}
-              {/* <YouTube videoId="4ocj4xmpIX0" opts={opts}/> */}
-              {/* <div className='player-wrapper' >
-              <YouTube className='react-player' videoId="4ocj4xmpIX0" opts={opts}/>
-                 <ReactPlayer url='https://www.youtube.com/watch?v=UfDK4_2zB3w' 
+                <div className='player-wrapper' >
+                 <ReactPlayer url='https://www.youtube.com/watch?v=L380wNnpUhY' 
                   width='100%'
                   height='100%'
-                  playing={true}
+                  playing
+                  loop
                   className='react-player'
-                  style={{ backgroundColor: 'green' }}
-                  //light
+                  controls
+                  volume={0}
                 />
-                </div> */}
+                </div>
             </Col>
           </Row>
         </Container>
